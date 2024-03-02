@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+.img{
+    height: 89px;
+    width: 94%;
+}
+.container1
+{
+    /* height: 10px; */
+    width: 100%;
+}
+.container2{
+    background: linear-gradient(rgb(9, 9, 63),rgb(252, 219, 219));
+    position: relative;
+    width: 100%;
+    height: 100vh
+    
+}
+.text1{
+    color: rgb(243, 234, 234);
+    margin-top: 105px;
+    margin-left: 25px;
+}
+.text2{
+    margin-left: 25px;
+   
+}
+.text3{
+    margin-left: 25px;
+   
+}
+.text4{
+    margin-left: 25px;
+
+}
+.date{
+    height: 98px;
+    width: 58%;
+    background-color: bisque;
+    border-radius: 20px;
+    margin-left: 130px;
+    margin-top: 170px;
+    position: absolute;
+}
+.date button{
+    margin-top: 20px;
+}
+.container4{
+    margin-left: 310px;
+    align-items: center;
+}
+.card{
+    align-items: center;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+}
+.img1{
+    height: 30px;
+    width: 49%;
+}
+.t1{
+    margin-left: 360px;
+}
+.img2{
+    height: 25px;
+    width: 57%;  
+}
+.img_div{
+    margin-left: 120px;
+}
+.img_cntnr
+{
+    background-color: rgb(235, 226, 214);
+    height: 172px;
+    width: 70%;
+    position: absolute;
+    top: 350%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px;
+    justify-content: center;
+}
+.footer{
+    background-color: rgb(21, 21, 245);
+    height: 380px;
+    width: 70%;
+    margin-top: 300px;
+    margin-left: 250px;
+    border-radius: 0px 50px 0px 0px;
+}
+.ftr_txt{
+    margin-top: 36px;
+    margin-left: 35px;
+}
+.ftr_txt1{
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+ul li{
+    list-style: none;
+    display: flex;
+     float: left; 
+    /* justify-content: space-around; */
+}
+.end
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.tb1{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.tb2{
+    margin-left: 10px;
+    
+}
+.db1{
+    margin-top: 20px;
+}
+@media(max-width:400px){
+
+    .img-container img{
+        width: 107%;
+        height: 224px;
+        margin-left: -15px;
+        margin-top: 68px;
+    }
+    .text1{
+    margin-left: 6px;
+    margin-top: 61px;
+    font-size: 20px;
+
+    }
+    .text2{
+        margin-left: 4px;
+        font-size: 23px;
+    
+    }
+    .text3{
+        margin-left: 4px;
+        font-size: 23px;
+    }
+.text4{
+    visibility: hidden;
+}
+.date{
+    margin-top: -238px;
+    margin-left: 2px;
+    height: 72px;
+    width: 102%;
+    padding: 28px;
+}
+.tb1{
+    font-size: 20px;
+    margin-top: -22px;
+}
+.tb2{
+    font-size: 16px;
+  
+}
+.db1{
+    font-size: 20px;
+    margin-top: -22px;
+    margin-left: -62px;
+}
+.db2{
+    font-size: 16px;
+    margin-left: -62px;
+
+}
+.date button{
+    margin-top: -90px;
+    margin-left: 219px;
+    height: 30px;
+    width: 38%;
+    padding: 3px;
+
+}
+.card{
+    margin-left: 41px;
+}
+.container4{
+    margin-left: -16px;
+}
+.img_cntnr{
+    visibility: hidden;
+}
+.container6{
+    width: 100%;
+    margin-left: -181px;
+    margin-top: -207px;
+}
+.footer{
+    width: 100%;
+    margin-left: 181px;
+    height: 520px;
+}
+
+
+.img_div img{
+    width: 236%;
+    height: 234px;
+    margin-left: -228px;
+}
+.container2{
+    height: 506px;
+}
+ul li img{
+    margin-top: -326px;
+    margin-left: 116px;
+    padding: 165px;
+}
+.t1{
+margin-left: 120px;
+}
+}
+
